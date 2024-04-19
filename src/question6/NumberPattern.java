@@ -21,4 +21,3 @@ public class NumberPattern {
         sc.close();
     }	
 }
-// hello
