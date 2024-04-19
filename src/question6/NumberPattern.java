@@ -6,7 +6,7 @@ public class NumberPattern {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the number");
+		System.out.println("Enter the number to reverse");
 		int n=sc.nextInt();
         for (int i = n; i >= 1; i--) {
             for (int j = n; j >= 1; j--) {
@@ -18,5 +18,7 @@ public class NumberPattern {
             }
             System.out.println();
         }
+        sc.close();
     }	
 }
+// hello
